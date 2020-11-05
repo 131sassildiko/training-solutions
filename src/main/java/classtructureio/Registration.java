@@ -1,4 +1,17 @@
 package classtructureio;
 
+import java.util.Scanner;
+
 public class Registration {
+    public static void main(String[] args) {
+        Scanner scanner=new Scanner (System.in);
+        System.out.println(Kérem adja meg a nevét);
+        string name = scanner.nextLine();
+        System.out.println(name);
+        System.out.println(Kérem adja meg az e-mail címét);
+        string email = scanner.nextLine();
+        System.out.println(email);
+
+
+    }
 }
