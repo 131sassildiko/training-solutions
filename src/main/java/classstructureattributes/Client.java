@@ -3,6 +3,6 @@ package classstructureattributes;
 public class Client {
 
     String name;
-    int birth;
+    int year;
     String address;
 }
