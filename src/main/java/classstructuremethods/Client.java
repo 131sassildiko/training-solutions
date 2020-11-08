@@ -6,17 +6,21 @@ public class Client {
     private int year;
     private String address;
 
+
     public String getName() {
         return name;
-
-    }
-        public void setName(String name) {
-            this.name = name;
-
     }
 
     public int getYear() {
         return year;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     public void setYear(int year) {
@@ -27,12 +31,7 @@ public class Client {
         this.address = address;
     }
 
-    public String getAddress() {
-        return address;
-
-        String newAddress;
-
-  public void migrate (String address) {
+    public void migrate(String newAddress) {
             address = newAddress;
         }
     }
