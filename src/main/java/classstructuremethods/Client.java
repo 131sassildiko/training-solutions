@@ -30,9 +30,9 @@ public class Client {
     public String getAddress() {
         return address;
 
+        String newAddress;
 
-
-  public void migrate (String newAddress){
+  public void migrate (String address) {
             address = newAddress;
         }
     }

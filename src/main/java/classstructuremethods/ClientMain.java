@@ -12,7 +12,7 @@ public class ClientMain {
         System.out.println(client.getYear());
         System.out.println(client.getAddress());
 
-        client.migrate("Béla u2";
+        client.migrate("Béla u2");
         System.out.println(client.getAddress());
 
 
