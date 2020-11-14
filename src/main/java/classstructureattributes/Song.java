@@ -1,4 +1,4 @@
-package classstructureconstructors;
+package classstructureattributes;
 
 public class Song {
     String band;

@@ -1,4 +1,4 @@
-package classstructureconstructors;
+package classstructureattributes;
 
 import java.util.Scanner;
 
