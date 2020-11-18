@@ -1,4 +1,4 @@
-package Statements;
+package statement;
 
 public class Time {
 
