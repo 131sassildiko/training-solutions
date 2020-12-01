@@ -12,13 +12,14 @@ public class PhoneMain {
         String type1= scanner.nextLine();
         System.out.println("What is the memory size?");
         int mem1 = scanner.nextInt();
-
+        scanner.nextLine();
         Phone phone = new Phone("type1", mem1);
 
         System.out.println(phone.getType() + phone.getMem());
 
         System.out.println("What type is your phone?");
         String type2= scanner.nextLine();
+
 
         System.out.println("What is the memory size?");
         int mem2 = scanner.nextInt();
