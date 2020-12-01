@@ -13,7 +13,7 @@ public class Trainer {
     }
 
     public String getNameUpperCase (){
-        return name.toLowerCase();
+        return name.toUpperCase();
     }
 
     public Trainer(String name) {

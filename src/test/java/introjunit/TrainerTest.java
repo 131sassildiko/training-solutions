@@ -15,8 +15,8 @@ public class TrainerTest {
 
 
     @Test
-    void getNameUpperCase() {
+    void testgetNameUpperCase() {
         Trainer trainer = new Trainer("John");
-        assertEquals("JOHN", trainer.getName());
+        assertEquals("JOHN", trainer.getNameUpperCase());
     }
 }
