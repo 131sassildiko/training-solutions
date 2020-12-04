@@ -9,7 +9,7 @@ public class Employee {
     private LocalDate dateOfBirth;
     private LocalDateTime beginEmployment;
 
-    public Employee(String name,int year, int month, int day) {
+    public Employee(String name, int year, int month, int day) {
         this.name = name;
         this.dateOfBirth = LocalDate.of(year, month, day);
         this.beginEmployment = LocalDateTime.now();

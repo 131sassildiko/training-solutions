@@ -16,7 +16,7 @@ public class MusicMain {
         System.out.println("What is the lenght?");
         music.length = scanner.nextInt();
 
-        System.out.println(music.band +" " + music.title + " " + music.length
+        System.out.println(music.band + " " + music.title + " " + music.length
         );
 
     }

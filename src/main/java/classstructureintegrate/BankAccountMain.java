@@ -8,7 +8,7 @@ public class BankAccountMain {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("what's your name?");
-        String owner =scanner.nextLine();
+        String owner = scanner.nextLine();
 
         System.out.println("what is your account nr?");
         String accountNumber = scanner.nextLine();
@@ -19,7 +19,7 @@ public class BankAccountMain {
         BankAccount account1 = new BankAccount(accountNumber, owner, balance);
 
         System.out.println("what's your name?");
-        String owner2 =scanner.nextLine();
+        String owner2 = scanner.nextLine();
 
         System.out.println("what is your account nr?");
         String accountNumber2 = scanner.nextLine();
