@@ -18,6 +18,13 @@ public class ArrayListMain {
 
         System.out.println(l.get(1));
 
+        System.out.println(l.size());
+
+        System.out.println(l.contains("one"));
+        System.out.println(l.contains("three"));
+
+        System.out.println(l.indexOf("two"));
+
         List<Integer> i = Arrays.asList(1, 2, 3);
 
         for (int j = 0; j < i.size(); j++) {
