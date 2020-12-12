@@ -10,10 +10,10 @@ public class Languages {
         languages.add("Python");
         languages.add("JavaScript");
 
-        for(int i = 0; i < languages.size(); i++) {
-        if (languages.get(i).length()>5) {
-            System.out.println(languages.get(i));
+        for (int i = 0; i < languages.size(); i++) {
+            if (languages.get(i).length() > 5) {
+                System.out.println(languages.get(i));
+            }
         }
     }
-}
 }
