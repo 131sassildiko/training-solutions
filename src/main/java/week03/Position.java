@@ -42,6 +42,7 @@ public class Position {
             if (i.getBonus()>150000){
                 System.out.println(i);
             }
+
         }
 
 
