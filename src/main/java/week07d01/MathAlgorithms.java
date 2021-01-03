@@ -12,12 +12,15 @@ public class MathAlgorithms {
         return x;
     }
 
-    public boolean isPrime(int x) {
+    public static boolean isPrime(int x) {
         if (x < 1) {
             throw new IllegalArgumentException("Wrong parameter");
         }
-        if (x==1 || x==2){
+        if (x==1){
             return true;
+        }
+        if (x==2){
+            return false;
         }
         for (int i = 2; i < x; i++) {
             if (x % i == 0)
