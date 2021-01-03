@@ -16,12 +16,12 @@ public class MathAlgorithms {
         if (x < 1) {
             throw new IllegalArgumentException("Wrong parameter");
         }
-        int div = 0;
+        if (x==1 || x==2){
+            return true;
+        }
         for (int i = 2; i < x; i++) {
-            if (x % i == 0) {
-                div++;
-            }
-            if (div > 1) return false;
+            if (x % i == 0)
+            return false;
         }
         return true;
     }
