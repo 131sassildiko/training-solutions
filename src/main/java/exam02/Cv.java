@@ -3,22 +3,18 @@ package exam02;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Cv extends Skill {
+public class Cv extends Skill{
 
     private String name;
 
     public Cv(String name) {
+        super();
         this.name = name;
     }
 
     public String getName() {
         return name;
     }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
 
     Skill skill = new Skill();
 

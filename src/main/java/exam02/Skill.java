@@ -1,23 +1,28 @@
 package exam02;
 
+import java.util.List;
+
 public class Skill {
 
-    private String skills;
+    private String name;
     private int level;
 
-    public String getSkills() {
-        return skills;
+    public Skill(String name, int level) {
+        this.name = name;
+        this.level = level;
     }
 
-    public void setSkills(String skills) {
-        this.skills = skills;
+    public Skill() {
+
+    }
+
+    public String getName() {
+        return name;
     }
 
     public int getLevel() {
         return level;
     }
 
-    public void setLevel(int level) {
-        this.level = level;
-    }
+
 }
