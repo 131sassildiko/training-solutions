@@ -1,10 +1,12 @@
 package exam02;
 
+import org.junit.jupiter.api.Test;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
 class CVTest {
-    @Test,
+    @Test
     public void testCreateWithName() {
         Cv cv1 = new Cv("John Doe");
         assertEquals("John Doe", cv1.getName());

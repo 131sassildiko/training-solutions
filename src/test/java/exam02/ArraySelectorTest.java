@@ -1,8 +1,13 @@
 package exam02;
 
+import org.junit.jupiter.api.Test;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class ArraySelectorTest {
+
+    ArraySelector arraySelector = new ArraySelector();
+
     @Test
     public void selectEvens() {
         assertEquals("", new ArraySelector().selectEvens(new int[]{}));
