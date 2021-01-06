@@ -4,11 +4,11 @@ import java.util.List;
 
 public class Skill {
 
-    private String name;
+    private String skills;
     private int level;
 
-    public Skill(String name, int level) {
-        this.name = name;
+    public Skill(String skills, int level) {
+        this.skills = skills;
         this.level = level;
     }
 
@@ -16,13 +16,16 @@ public class Skill {
 
     }
 
-    public String getName() {
-        return name;
+    public String getSkills() {
+        return skills;
     }
 
     public int getLevel() {
         return level;
     }
 
+    public String skillCreate () {
+         return skills + "(" + level + ")";
+    }
 
 }
