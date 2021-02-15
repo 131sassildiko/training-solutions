@@ -2,6 +2,7 @@ package exam03;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 
@@ -42,16 +43,25 @@ public class Cruise {
         }
     }
 
+
+
     public double getPriceForPassenger(Passenger passenger) {
+        if (passenger.getName().equals(passenger)){
+            return getBasicPrice();
+        }
     }
 
-    public Passenger findPassengerByName(String passenger) {
+    public Passenger findPassengerByName(Passenger passenger, String name) {
+        if (passenger.getName().equals(name));
+        return passenger;
     }
 
     public List<String> getPassengerNamesOrdered() {
+        Arrays.sort(Passenger);
     }
 
     public double sumAllBookingsCharged() {
+
     }
 
     public Map<CruiseClass, Integer> countPassengerByClass() {
