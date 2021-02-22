@@ -1,3 +1,4 @@
+/*
 //package exam03retake01;
 //
 //import org.junit.jupiter.api.Test;
@@ -20,4 +21,4 @@
 //        assertThrows(IllegalArgumentException.class,
 //                () -> new CdvCheck().check("12345a7890"));
 //    }
-//}
+//}*/
